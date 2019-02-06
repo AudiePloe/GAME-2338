@@ -4,13 +4,13 @@
 
 ### Enter the Gungeon
 http://dodgeroll.com/gungeon/ 
-Procedurally generated. Rougelike.
+
 
 ### Rating
 I would rate this game a 7/10
 
 ## Summary
-This game is about getting to the bottom of a dungeon infested by the cult of the gundead. The player travels deeper into a procedurally generated dungeon, defeating enemies and aquireing new gadgets , money, and new guns so they can travel deeper or until they die. The main goal is to unlock all weapons and get to the bottom of the dungeon.
+This is a procedurally generated rougelike game about getting to the bottom of a dungeon infested by the cult of the gundead. The player travels deeper into a procedurally generated dungeon, defeating enemies and aquireing new gadgets , money, and new guns so they can travel deeper or until they die. The main goal is to unlock all weapons and get to the bottom of the dungeon.
 
 ## Final Thoughts
 I like this game because its funny and addictive. The fast paced gameplay and characters you meet really makes the game.
