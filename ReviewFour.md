@@ -14,5 +14,5 @@ The game follows the niese of a man naimed fred, and her imaginary adventures th
 I like this about the game but it was very short compared to most games, though it made good use of its time to propel a good story. Very fun grapple mechanics.
 
 ## Additional Information
-Review here: https://www.pcgamer.com/a-story-about-my-uncle-review/ 
+Another review here: https://www.pcgamer.com/a-story-about-my-uncle-review/ 
 
