@@ -1,0 +1,91 @@
+{
+  "id": "4c9fcbd0-4c45-424c-9c69-2058ce6dc9ec",
+  "version": "2.0",
+  "name": "Ploe_Project1",
+  "url": "https://translationchicken.com/",
+  "tests": [{
+    "id": "63def198-b913-4c10-b050-142203d3698b",
+    "name": "EliteTop",
+    "commands": [{
+      "id": "52a8b6a0-8f74-474e-a2a2-afdcfb1a4725",
+      "comment": "",
+      "command": "open",
+      "target": "https://translationchicken.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdf2bc9c-a257-41d7-b84c-71fcad6c1691",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "296d0d83-22ae-4879-8895-7131c7f8dd3b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open Search",
+      "targets": [
+        ["linkText=Open Search", "linkText"],
+        ["css=.search-icon", "css:finder"],
+        ["xpath=//a[contains(text(),'Open Search')]", "xpath:link"],
+        ["xpath=//nav[@id='site-navigation']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a163888-6b5d-4549-8b51-b6921e64a04e",
+      "comment": "",
+      "command": "type",
+      "target": "name=s",
+      "targets": [
+        ["name=s", "name"],
+        ["css=.search-field", "css:finder"],
+        ["xpath=//input[@name='s']", "xpath:attributes"],
+        ["xpath=//div[@id='search-container']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chapter 110"
+    }, {
+      "id": "10f5aefa-073d-4dd2-9ae1-661eeb6f0345",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=s",
+      "targets": [
+        ["name=s", "name"],
+        ["css=.search-field", "css:finder"],
+        ["xpath=//input[@name='s']", "xpath:attributes"],
+        ["xpath=//div[@id='search-container']/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e543e7ef-42db-4086-973c-7ca35c8c2a9e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Re:Zero Arc 4 Chapter 110 [The Reason To Believe]",
+      "targets": [
+        ["linkText=Re:Zero Arc 4 Chapter 110 [The Reason To Believe]", "linkText"],
+        ["css=#post-34870 > .post-header a", "css:finder"],
+        ["xpath=//a[contains(text(),'Re:Zero Arc 4 Chapter 110 [The Reason To Believe]')]", "xpath:link"],
+        ["xpath=//article[@id='post-34870']/header/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://translationchicken.com/2019/02/13/rezero-arc-4-chapter-110-the-reason-to-believe/')]", "xpath:href"],
+        ["xpath=//h1/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Re:Zero Arc 4 Chapter 110 [The Reason To Believe]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d7573b0d-3b00-499d-987a-f18b927c0752",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["63def198-b913-4c10-b050-142203d3698b"]
+  }],
+  "urls": ["https://www.reddit.com/", "https://translationchicken.com/"],
+  "plugins": []
+}
